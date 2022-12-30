@@ -11,4 +11,11 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    padding: 1rem;
+  }
 }
